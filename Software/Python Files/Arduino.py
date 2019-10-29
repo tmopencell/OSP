@@ -28,7 +28,7 @@ class Arduino(object):
             ser_ports = [
                 p.device
                 for p in serial.tools.list_ports.comports()
-                if 'ACM' in p.description
+                #if 'ACM' in p.description
             ]
         if not ser_ports:
             raise IOError("No ser found")

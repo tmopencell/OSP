@@ -12,6 +12,8 @@ import os
 import sys
 import pickle
 import seabreeze.spectrometers as sb
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
 
